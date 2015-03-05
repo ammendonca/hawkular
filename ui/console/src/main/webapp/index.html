@@ -60,7 +60,10 @@
     </nav>
 
     <div id="main" class="container-fluid ng-cloak" ng-controller="HawtioNav.ViewController">
-      <div ng-include src="viewPartial"></div>
+      <div class="row">
+        <hawkular-sidebar></hawkular-sidebar>
+        <div ng-include src="viewPartial" class="col-md-11"></div>
+      </div>
     </div>
 
     <!-- add any scripts under dist/ here -->

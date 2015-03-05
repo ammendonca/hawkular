@@ -37,7 +37,7 @@ var normalSizeOptions = {
 
 var config = {
     main: '.',
-    ts: ['plugins/**/*.ts'],
+    ts: ['plugins/**/*.ts', 'directives/**/*.ts'],
     templates: ['plugins/**/*.html'],
     templateModule: pkg.name + '-templates',
     dist: './dist/',
